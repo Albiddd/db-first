@@ -1,0 +1,12 @@
+AUTOMOBILI USATE
+
+targa                  PK        VARCHAR(7)       NOTNULL       AUTO_INCREMENT
+produttore                       VARCHAR(100)     NOTNULL
+modello                          VARCHAR(100)     NOTNULL
+anno_produzione                  YEAR             NOTNULL
+alimentazione                    VARCHAR(10)      NOTNULL
+cilindrata                       SMALLINT         NOTNULL
+km                               MEDIUMINT        NOTNULL       DEFAULT(0)
+num_possessori                   TINYINT(2)       NOTNULL       DEFAULT(1)
+n_porte                          TINYINT(1)       NOTNULL
+prezzo                           DOUBLE(8,2)      NOTNULL
